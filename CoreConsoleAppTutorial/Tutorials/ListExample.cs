@@ -29,7 +29,6 @@ namespace CoreConsoleAppTutorial.Tutorials
             customers.Add(customer2);
             customers.Insert(1, customer3);
 
-
             foreach (Customer c in customers)
             {
                 Console.WriteLine($"Name = {c.Name}");
