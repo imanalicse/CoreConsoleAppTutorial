@@ -27,9 +27,9 @@ namespace CoreConsoleAppTutorial.Tutorials
         public static float PI;
         int Radius;
 
-        // static modifiers are not allowed on static constructors
-        // static constructors are used to initize static fields in a class
-        // Static Constructor is called only once, no mattr how many instances you create.
+        // Static modifiers are not allowed on static constructors
+        // Static constructors are used to initize static fields in a class
+        // Static Constructor is called only once, no matter how many instances you create.
         //Static constructors are called before instance constructor
         static Circle ()
         {
