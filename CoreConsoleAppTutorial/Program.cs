@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreConsoleAppTutorial.Tutorials;
+using System;
 
 namespace CoreConsoleAppTutorial
 {
@@ -6,7 +7,9 @@ namespace CoreConsoleAppTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new ListExample();
+
+            Console.ReadKey();
         }
     }
 }
