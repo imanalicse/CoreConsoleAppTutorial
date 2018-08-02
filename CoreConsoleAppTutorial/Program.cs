@@ -7,7 +7,7 @@ namespace CoreConsoleAppTutorial
     {
         static void Main(string[] args)
         {
-            new StaticAndInstanceClass();
+            new MethodHiding();
 
             Console.ReadKey();
         }
