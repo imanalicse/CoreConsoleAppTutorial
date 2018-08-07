@@ -8,7 +8,7 @@ namespace CoreConsoleAppTutorial
     {
         static void Main(string[] args)
         {
-            new DictionaryExample();
+            new ListExample();
 
             Console.ReadKey();
         }
